@@ -29,7 +29,153 @@ jobs:
           path: ~/.npm
           key: npm-${{ runner.os }}-${{ hashFiles('**/package.json') }}
           restore-keys: npm-${{ runner.os }}-
-      - name: Install dependencies
+      - name: Install (admin)
+        working-directory: admin
         run: npm install
-      - name: No runnable npm scripts
-        run: echo "This repo declares no lint/build/typecheck scripts."
+      - name: Install (admin_dialog)
+        working-directory: admin_dialog
+        run: npm install
+      - name: Install (arcade_lobby)
+        working-directory: arcade_lobby
+        run: npm install
+      - name: Install (audit_log)
+        working-directory: audit_log
+        run: npm install
+      - name: Install (component_editor)
+        working-directory: component_editor
+        run: npm install
+      - name: Install (config_summary)
+        working-directory: config_summary
+        run: npm install
+      - name: Install (css_designer)
+        working-directory: css_designer
+        run: npm install
+      - name: Install (dashboard)
+        working-directory: dashboard
+        run: npm install
+      - name: Install (data_table)
+        working-directory: data_table
+        run: npm install
+      - name: Install (dropdown_manager)
+        working-directory: dropdown_manager
+        run: npm install
+      - name: Install (form_builder)
+        working-directory: form_builder
+        run: npm install
+      - name: Install (forum_forge)
+        working-directory: forum_forge
+        run: npm install
+      - name: Install (github_tools)
+        working-directory: github_tools
+        run: npm install
+      - name: Install (irc_webchat)
+        working-directory: irc_webchat
+        run: npm install
+      - name: Install (json_script_example)
+        working-directory: json_script_example
+        run: npm install
+      - name: Install (nav_menu)
+        working-directory: nav_menu
+        run: npm install
+      - name: Install (notification_center)
+        working-directory: notification_center
+        run: npm install
+      - name: Install (package_manager)
+        working-directory: package_manager
+        run: npm install
+      - name: Install (package_validator)
+        working-directory: package_validator
+        run: npm install
+      - name: Install (quick_guide)
+        working-directory: quick_guide
+        run: npm install
+      - name: Install (role_editor)
+        working-directory: role_editor
+        run: npm install
+      - name: Install (route_manager)
+        working-directory: route_manager
+        run: npm install
+      - name: Install (schema_editor)
+        working-directory: schema_editor
+        run: npm install
+      - name: Install (screenshot_analyzer)
+        working-directory: screenshot_analyzer
+        run: npm install
+      - name: Install (smtp_config)
+        working-directory: smtp_config
+        run: npm install
+      - name: Install (social_hub)
+        working-directory: social_hub
+        run: npm install
+      - name: Install (stats_grid)
+        working-directory: stats_grid
+        run: npm install
+      - name: Install (stream_cast)
+        working-directory: stream_cast
+        run: npm install
+      - name: Install (test_example_comprehensive)
+        working-directory: test_example_comprehensive
+        run: npm install
+      - name: Install (test_example_unit)
+        working-directory: test_example_unit
+        run: npm install
+      - name: Install (theme_editor)
+        working-directory: theme_editor
+        run: npm install
+      - name: Install (ui_auth)
+        working-directory: ui_auth
+        run: npm install
+      - name: Install (ui_database_manager)
+        working-directory: ui_database_manager
+        run: npm install
+      - name: Install (ui_dialogs)
+        working-directory: ui_dialogs
+        run: npm install
+      - name: Install (ui_footer)
+        working-directory: ui_footer
+        run: npm install
+      - name: Install (ui_header)
+        working-directory: ui_header
+        run: npm install
+      - name: Install (ui_home)
+        working-directory: ui_home
+        run: npm install
+      - name: Install (ui_intro)
+        working-directory: ui_intro
+        run: npm install
+      - name: Install (ui_json_script_editor)
+        working-directory: ui_json_script_editor
+        run: npm install
+      - name: Install (ui_level2)
+        working-directory: ui_level2
+        run: npm install
+      - name: Install (ui_level3)
+        working-directory: ui_level3
+        run: npm install
+      - name: Install (ui_level4)
+        working-directory: ui_level4
+        run: npm install
+      - name: Install (ui_level5)
+        working-directory: ui_level5
+        run: npm install
+      - name: Install (ui_level6)
+        working-directory: ui_level6
+        run: npm install
+      - name: Install (ui_login)
+        working-directory: ui_login
+        run: npm install
+      - name: Install (ui_pages)
+        working-directory: ui_pages
+        run: npm install
+      - name: Install (ui_permissions)
+        working-directory: ui_permissions
+        run: npm install
+      - name: Install (ui_schema_editor)
+        working-directory: ui_schema_editor
+        run: npm install
+      - name: Install (ui_workflow_editor)
+        working-directory: ui_workflow_editor
+        run: npm install
+      - name: Install (user_manager)
+        working-directory: user_manager
+        run: npm install
