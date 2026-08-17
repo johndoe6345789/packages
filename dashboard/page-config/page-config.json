@@ -53,5 +53,16 @@
     "requiresAuth": true,
     "isPublished": true,
     "sortOrder": 53
+  },
+  {
+    "id": "page_user_comments",
+    "path": "/comments",
+    "title": "Comments",
+    "packageId": "dashboard",
+    "component": "comments_wall",
+    "level": 1,
+    "requiresAuth": true,
+    "isPublished": true,
+    "sortOrder": 54
   }
 ]
