@@ -1,0 +1,47 @@
+{
+  "$schema": "https://metabuilder.dev/schemas/package-metadata.schema.json",
+  "packageId": "vault",
+  "name": "Vault",
+  "version": "1.0.0",
+  "description": "Personal file storage, backed by the object-store S3-compatible service",
+  "author": "MetaBuilder",
+  "license": "MIT",
+  "category": "user",
+  "icon": "static_content/icon.svg",
+  "minLevel": 1,
+  "primary": true,
+  "dependencies": {
+    "ui_permissions": "*"
+  },
+  "devDependencies": {
+    "testing": "*"
+  },
+  "exports": {
+    "components": [
+      "VaultShell",
+      "VaultTreeRenderer"
+    ],
+    "scripts": [
+      "browse",
+      "upload"
+    ]
+  },
+  "tests": {
+    "suites": [
+      "tests/metadata.test.json"
+    ]
+  },
+  "files": {
+    "directories": [
+      "page-config"
+    ],
+    "byType": {
+      "pages": [
+        "page-config/page-config.json"
+      ],
+      "config": [
+        "package.json"
+      ]
+    }
+  }
+}

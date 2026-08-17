@@ -1,0 +1,13 @@
+[
+  {
+    "id": "page_vault_root",
+    "path": "/vault",
+    "title": "Vault",
+    "packageId": "vault",
+    "component": "vault_shell",
+    "level": 1,
+    "requiresAuth": true,
+    "isPublished": true,
+    "sortOrder": 60
+  }
+]
