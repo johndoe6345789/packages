@@ -3,7 +3,7 @@
   "packageId": "vault",
   "name": "Vault",
   "version": "1.0.0",
-  "description": "Personal file storage, backed by the object-store S3-compatible service",
+  "description": "Personal login/credential vault (title, username, password, URLs, notes) backed by DBAL",
   "author": "MetaBuilder",
   "license": "MIT",
   "category": "user",
@@ -22,8 +22,8 @@
       "VaultTreeRenderer"
     ],
     "scripts": [
-      "browse",
-      "upload"
+      "unlock",
+      "save"
     ]
   },
   "tests": {
